@@ -53,7 +53,7 @@ export default class Discount extends Component {
                 <MyButton text='Purchase tickets'
                 bck='#ffa800'
                 color='#ffffff'
-                link='http://www.naver.com'
+                link='https://ticket.melon.com/performance/index.htm?prodId=203181'
                 />
             </div>
             </Slide>

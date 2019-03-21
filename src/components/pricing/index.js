@@ -7,15 +7,15 @@ import Zoom from 'react-reveal/Zoom';
 class Pricing extends Component {
 
     state = {
-        prices: [100, 150, 250],
-        position: ['Balcony', 'Medium', 'Start'],
+        prices: [6.5, 10],
+        position: ['1Day', '2Day'],
         desc: [
             'sssdagawouihow34yihnklsnvmxc,nvc,x',
             'sdgsdgdsgaakehgoiwehgasdsvdsasrhah',
             'cmxnkcjxnbiheoair sajgiarwhrl'
         ],
-        linkTo: ['http://sales/balcony', 'https://sales/medium', 'https://sales/start'],
-        delay: [800, 0, 500] 
+        linkTo: ['https://ticket.melon.com/performance/index.htm?prodId=203181', 'https://ticket.melon.com/performance/index.htm?prodId=203181'],
+        delay: [800, 300] 
     }
 
     showBoxes = () =>(
@@ -24,7 +24,7 @@ class Pricing extends Component {
                 <div className='pricing_item'>
                 <div className='pricing_inner_wrapper'>
                     <div className='pricing_title'>
-                        <span >${box}</span>
+                        <span >{box}만원</span>
                         <span>{this.state.position[i]}</span>
                     </div>
                     <div className='pricing_description'>

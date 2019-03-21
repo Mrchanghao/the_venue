@@ -9,7 +9,7 @@ const Footer = () => {
                     The Venue
                 </div>
                 <div className='footer_copyright'>
-                    The Venue 2018.all.right reserved
+                    The Venue 2019.all.right reserved
                 </div>
             </Fade>
         </footer>

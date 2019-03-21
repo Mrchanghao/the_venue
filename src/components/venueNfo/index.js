@@ -21,7 +21,7 @@ const VenueNfo = () => {
                                 className='vn_icon'>
                                 </div>
                                 <div className='vn_title'>Event& time</div>
-                                <div className='vn_desc'>8 September @8:00 pm</div>
+                                <div className='vn_desc'>1 June @13:00 pm</div>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const VenueNfo = () => {
                                 className='vn_icon'>
                                 </div>
                                 <div className='vn_title'>Event location</div>
-                                <div className='vn_desc'>잠실 종합 운동장</div>
+                                <div className='vn_desc'>과천 서울랜드</div>
                             </div>
                         </div>
                     </div>

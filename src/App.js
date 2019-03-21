@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './resources/styles.css'
 import {Element} from 'react-scroll'
 import Header from './components/header_footer/Header'
@@ -9,8 +9,8 @@ import Pricing from './components/pricing';
 import Location from './components/location'
 import Footer from './components/Footer'
 
-class App extends Component {
-  render() {
+const App = () => {
+  
     return (
       <div className="App" style={{ height: '1500px', background: 'cornflowerblue'}}>
         <Element name='header'>
@@ -38,6 +38,6 @@ class App extends Component {
       </div>
     );
   }
-}
+
 
 export default App;

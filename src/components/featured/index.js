@@ -11,7 +11,7 @@ const Featured = (props) => {
 
 			<div className='artist_name'>
 				<div className='wrapper'>
-					Spectrum 2018
+					<p className='wrapper__p'>WORLD DJ FESTIVAL 2019</p>
 				</div>
 			</div>
 			<TimeUntil />

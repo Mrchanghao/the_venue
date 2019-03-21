@@ -110,6 +110,16 @@ footer .footer_copyright {
     font-size: 40px;
     padding: 21px 70px 0px 70px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist_name .wrapper .wrapper__p {
+    text-align: center;
+    font-size: 2.2rem;
+    transform: translateY(-0.7rem); 
+    /* 중앙 맞추기가 잘 맞는듯... */
 }
 
 /*====================
@@ -310,6 +320,10 @@ footer .footer_copyright {
 .pricing_wrapper .pricing_inner_wrapper {
     border:2px solid #ffa800;
     padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .pricing_inner_wrapper .pricing_title {

@@ -4,7 +4,7 @@ import Slide from 'react-reveal/Slide';
 export default class TimeUnitl extends Component {
 
     state = {
-        deadline: 'Sep, 8, 2018',
+        deadline: 'Jun, 1, 2019',
         days: '0',
         hours: '0',
         minutes: '0',
